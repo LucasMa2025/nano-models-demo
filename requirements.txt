@@ -1,0 +1,29 @@
+# Nano Models Demo System Requirements
+# =====================================
+
+# Core dependencies
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+
+# Database (SQLite is built-in, but we need typing support)
+# No external package needed for SQLite
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+
+# Logging and utilities
+python-dateutil>=2.8.0
+
+# Optional: For actual LoRA training (not used in demo)
+# torch>=2.0.0
+# transformers>=4.30.0
+# peft>=0.5.0
+
+# Development
+black>=22.0.0
+isort>=5.10.0
+mypy>=0.990
